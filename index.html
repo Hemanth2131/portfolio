@@ -3,166 +3,411 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hemanth's Portfolio</title>
+    <title>Hemanth Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
     <script src="https://kit.fontawesome.com/1ccbc95070.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!---------------- HEADER ---------------->
+
     <div id="header">
         <div class="container">
-          <nav>
-            <img src="chatgpt.png" class="logo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav> 
-          <div class="header-text">
-            <p> Prompt Engineer</p>
-            <h1>Hello! I'm <span>Hemanth</span> <br> </h1>
-          </div> 
+
+            <nav>
+                <h1 class="logo">Hemanth.</h1>
+
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+
+                <p>Full Stack Developer | AI/ML Enthusiast</p>
+
+                <h1>
+                    Hi, I'm <span>Hemanth</span><br>
+                    Building Scalable & Intelligent Applications
+                </h1>
+
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn">View Projects</a>
+                    <a href="#" class="btn btn2">Download Resume</a>
+                </div>
+
+            </div>
         </div>
     </div>
+
+    <!---------------- ABOUT ---------------->
+
     <div id="about">
         <div class="container">
+
             <div class="row">
+
                 <div class="about-col-1">
                     <img src="hemanth.jpg">
                 </div>
+
                 <div class="about-col-2">
+
                     <h1 class="sub-title">About Me</h1>
-                    <p>I'm Hemanth Madem, a passionate software engineer eager to learn and grow in dynamic roles. With experience in Python, ReactJS, 
-                        and data visualization tools like Power BI, I enjoy solving real-world problems through technology. I’ve worked on diverse projects, 
-                        including OCR solutions, interactive games, and database systems. Certified as a Google Cloud Associate Engineer, 
-                        I thrive on innovation and continuous improvement. Let’s build impactful solutions together!</p>
-                        <div class="tab-titles">
-                            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
-                            <div class="tab-links" onclick="opentab('experience')">Experience</div>
-                            <div class="tab-links" onclick="opentab('education')">Education</div>
-                        </div>
-                        <div class="tab-content active-tab" id="skills">
-                            <ul>
-                                <li><span>UI</span><br>Designing Web Interfaces</li>
-                                <li><span>web development</span><br>Building responsive websites and applications</li>
-                                <li><span>python and java</span><br>Programming and Integrating </li>
-                            </ul>
-                        </div>
-                        <div class="tab-content" id="experience">
-                            <ul>
-                                <li><span>Tectoro (Jun 2024 - Aug 2024)</span><br>UI intern</li>
-                                <li><span>L4G (Sep 2024 - Oct 2024)</span><br>Junior Developer</li>
-                                <li><span>Inkonsol</span><br>Newsletter project </li>
-                            </ul>
-                        </div>
-                        <div class="tab-content" id="education">
-                            <ul>
-                                <li><span>Velagapudi Ramakrishna Siddhartha Engineering College - 8.2 CGPA</span><br>Computer Science and Engineering</li>
-                                <li><span>Tirumala junior College - 97.6%</span><br>MPC</li>
-                                <li><span>Likitha EM High School - 10CGPA</span><br>State Board </li>
-                            </ul>
-                        </div>
+
+                    <p>
+                        I’m Madem Hemanth Devi Raj, a Computer Science student passionate about
+                        Full-Stack Development and AI/ML.
+
+                        I build scalable web applications using React.js, Node.js, MongoDB,
+                        Java, and Spring Boot technologies.
+
+                        I’ve developed projects ranging from e-commerce platforms and secure
+                        voting systems to AI-powered monitoring systems using YOLOv8 and IoT sensors.
+
+                        I enjoy solving real-world problems through technology and continuously
+                        learning modern development tools and frameworks.
+                    </p>
+
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+
+                    </div>
+
+                    <div class="tab-content active-tab" id="skills">
+
+                        <ul>
+
+                            <li>
+                                <span>Frontend</span><br>
+                                HTML, CSS, JavaScript, ReactJS
+                            </li>
+
+                            <li>
+                                <span>Backend</span><br>
+                                Node.js, Express.js, Spring Boot
+                            </li>
+
+                            <li>
+                                <span>Programming</span><br>
+                                Java, Python, C
+                            </li>
+
+                            <li>
+                                <span>Database</span><br>
+                                MongoDB, MySQL, SQL
+                            </li>
+
+                            <li>
+                                <span>Tools</span><br>
+                                Git, GitHub, VS Code, IntelliJ, Figma
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-content" id="education">
+
+                        <ul>
+
+                            <li>
+                                <span>B.Tech - Computer Science Engineering</span><br>
+                                Velagapudi Ramakrishna Siddhartha Engineering College
+                            </li>
+
+                            <li>
+                                <span>CGPA</span><br>
+                                8.25 / 10
+                            </li>
+
+                            <li>
+                                <span>Coursework</span><br>
+                                DSA, OOP, DBMS, OS, Web Development
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-content" id="achievements">
+
+                        <ul>
+
+                            <li>
+                                <span>200+ DSA Problems</span><br>
+                                Solved on LeetCode
+                            </li>
+
+                            <li>
+                                <span>First Prize Winner</span><br>
+                                Design Thinking Workshop
+                            </li>
+
+                            <li>
+                                <span>Projects</span><br>
+                                Built multiple MERN-stack and backend projects
+                            </li>
+
+                        </ul>
+
+                    </div>
+
                 </div>
             </div>
         </div>
-
     </div>
+
+    <!---------------- SERVICES ---------------->
+
     <div id="services">
+
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
+
+            <h1 class="sub-title">What I Do</h1>
+
             <div class="services-list">
+
                 <div>
                     <i class="fa-solid fa-code"></i>
-                    <h2>UI Designing</h2>
-                    <p>Proficient in UI design with hands-on experience in creating responsive and visually appealing web interfaces using HTML, CSS, 
-                        JavaScript, ReactJS, and Angular. 
-                        Skilled at leveraging design tools like Figma and Bootstrap to deliver user-friendly layouts aligned with project goals.</p>
-                    <a href="#">learn more</a>
+
+                    <h2>Full Stack Development</h2>
+
+                    <p>
+                        Developing scalable web applications using React.js,
+                        Node.js, Express.js, MongoDB, and REST APIs.
+                    </p>
                 </div>
+
+                <div>
+                    <i class="fa-solid fa-server"></i>
+
+                    <h2>Backend Engineering</h2>
+
+                    <p>
+                        Building secure backend systems with JWT authentication,
+                        CRUD operations, and database integration.
+                    </p>
+                </div>
+
                 <div>
                     <i class="fa-solid fa-robot"></i>
-                    <h2>Machine Learning Assistance</h2>
-                    <p>Experience working on projects involving Optical Character Recognition (OCR) and annotations with a machine learning team. 
-                        Adept at integrating front-end interfaces with machine learning models to create seamless and functional applications.</p>
-                    <a href="#">learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-chart-pie"></i>
-                    <h2>Data Visualization</h2> 
-                    <p>Proficient in creating reports and dashboards using Power BI. Skilled in analyzing and 
-                        visualizing data to derive actionable insights that enhance decision-making and operational efficiency.</p>
-                    <a href="#">learn more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-   <div id="portfolio">
-    <div class="container">
-        <div class="sub-title">My Work</div>
-        <div class="work-list">
-            <div class="work">
-                <img src="pexels-suhashanjar-22840300.jpg" class="imm">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>The app connnects you to the talented people around the world. Download it from the playstore</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="pexels-aaron-johnson-189853-7807298.jpg" class="imm">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>The app connnects you to the talented people around the world. Download it from the playstore</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="pexels-cottonbro-8261585.jpg" class="imm">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>The app connnects you to the talented people around the world. Download it from the playstore</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-        </div>
-        <a href="#" class="btn">See more</a>
-    </div>
-   </div>
 
-   <div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <div class="sub-title">Contact Me</div>
-                <p>mhemanth575@gmail.com</p>
-                <p>9550022131</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/h.e.m.a.n.t.h.8_7/"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://www.linkedin.com/in/hemanth-madem-29a028294/"><i class="fab fa-linkedin"></i></a>
+                    <h2>AI & Smart Systems</h2>
+
+                    <p>
+                        Creating AI-powered and IoT-based solutions using YOLOv8,
+                        ESP32-CAM, and real-time monitoring systems.
+                    </p>
                 </div>
-                <a href="linkforurcv" download class="btn btn2">Download CV</a>
+
             </div>
+
         </div>
+
     </div>
-   </div>
+
+    <!---------------- PROJECTS ---------------->
+
+    <div id="portfolio">
+
+        <div class="container">
+
+            <h1 class="sub-title">My Projects</h1>
+
+            <div class="work-list">
+
+                <div class="work">
+
+                    <img src="project1.jpg">
+
+                    <div class="layer">
+
+                        <h3>K-Mart E-Commerce Platform</h3>
+
+                        <p>
+                            Full-stack MERN e-commerce platform with authentication,
+                            admin dashboard, product management, and order processing.
+                        </p>
+
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+
+                </div>
+
+                <div class="work">
+
+                    <img src="project2.jpg">
+
+                    <div class="layer">
+
+                        <h3>Smart Animal Alert System</h3>
+
+                        <p>
+                            AI-powered farmland monitoring system using YOLOv8,
+                            ESP32-CAM, IoT sensors, and Telegram alerts.
+                        </p>
+
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+
+                </div>
+
+                <div class="work">
+
+                    <img src="project3.jpg">
+
+                    <div class="layer">
+
+                        <h3>VoteX Backend System</h3>
+
+                        <p>
+                            Secure backend voting system using Node.js,
+                            Express.js, MongoDB, and JWT authentication.
+                        </p>
+
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+
+                </div>
+
+                <div class="work">
+
+                    <img src="project4.jpg">
+
+                    <div class="layer">
+
+                        <h3>Campus Event Hub</h3>
+
+                        <p>
+                            Platform for discovering and registering
+                            for technical and non-technical college events.
+                        </p>
+
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!---------------- CERTIFICATIONS ---------------->
+
+    <div id="certifications">
+
+        <div class="container">
+
+            <h1 class="sub-title">Certifications</h1>
+
+            <div class="cert-list">
+
+                <div class="cert">Web Development</div>
+
+                <div class="cert">UI/UX Design</div>
+
+                <div class="cert">Cyber Security - Cisco</div>
+
+                <div class="cert">Java Programming - Infosys</div>
+
+                <div class="cert">Python Programming - OPEN EDG</div>
+
+                <div class="cert">Agile Development - Infosys</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!---------------- CONTACT ---------------->
+
+    <div id="contact">
+
+        <div class="container">
+
+            <div class="contact-left">
+
+                <h1 class="sub-title">Contact Me</h1>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    mhemanth575@gmail.com
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    +91 9550022131
+                </p>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!---------------- FOOTER ---------------->
+
+    <div class="footer">
+        <p>© 2026 Hemanth Portfolio | Built with ❤️</p>
+    </div>
+
+    <!---------------- SCRIPT ---------------->
 
     <script>
+
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-content");
+
         function opentab(tabname){
+
             for(tablink of tablinks){
                 tablink.classList.remove("active-link");
             }
+
             for(tabcontent of tabcontents){
                 tabcontent.classList.remove("active-tab");
             }
+
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
         }
+
     </script>
 
 </body>
